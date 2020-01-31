@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Navbar,
   Nav,
-  NavDropdown,
+  // NavDropdown,
   Form,
   FormControl,
   Button
@@ -13,28 +13,34 @@ import {
 const Toolbar = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="dark" variant="dark" className="toolbar">
         <Navbar.Brand href="/">
           <img
             src="https://image.flaticon.com/icons/svg/754/754117.svg"
             className="smartphone"
+            alt="smartphone"
           />
         </Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/ProductList">Products</Nav.Link>
+          <Link className="navbar-dark navbar-nav nav-link" to="/">
+            Home
+          </Link>
+          <Link className="navbar-dark navbar-nav nav-link" to="/product-list">
+            Products
+          </Link>
           {/* <Nav.Link href="/AboutUs">About Us</Nav.Link> */}
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
           <Button variant="outline-info">Search</Button>
         </Form>
-        <a href="/cart">
+        <Link to="/cart">
           <img
             src="https://cdn.pixabay.com/photo/2015/12/23/01/14/edit-1105049_960_720.png"
             className="cart"
+            alt="cart"
           />
-        </a>
+        </Link>
       </Navbar>
     </div>
   );

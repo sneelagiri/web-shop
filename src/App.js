@@ -5,6 +5,8 @@ import "./App.css";
 import ProductList from "./components/ProductList";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Toolbar from "./components/Toolbar";
+import Cart from "./components/Cart";
+import Categories from "./components/Categories";
 
 export default class App extends React.Component {
   render() {
@@ -12,7 +14,9 @@ export default class App extends React.Component {
       <div className="App wrapper">
         <Toolbar />
         <Switch>
-          <Route path="/ProductList" component={ProductList} />
+          <Route path="/cart" component={Cart} />
+          <Route path="/product-list" component={ProductList} />
+          <Route path="/category/:id" component={Categories} />
           <Route component={Homepage} />
         </Switch>
       </div>

@@ -58,3 +58,21 @@
 .addToCartBtn {
   margin-left: 10px;
 }
+
+.link {
+  color: #000000;
+}
+
+.card-img,
+.card-img-top.cartImage {
+  width: 200px;
+}
+
+.toolbar {
+  margin-right: 0px;
+  margin-right: 0px;
+}
+
+.sidebar {
+  padding-left: 10px;
+}

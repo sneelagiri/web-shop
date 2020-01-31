@@ -1,0 +1,182 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Samsung Galaxy A50",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-a50-sm-a505fzksphn-frontblack-thumb-170863085?$PF_PRD_PNG$",
+      "inStock": true,
+      "price": 349
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "Samsung Galaxy A70",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-a70-sm-a705fzkuphn-frontblack-thumb-170864398?$PF_PRD_PNG$",
+      "inStock": false,
+      "price": 376
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "name": "Samsung Galaxy A40",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-a40-sm-a405fzkdphn-frontblack-thumb-170388236?$PF_PRD_PNG$",
+      "inStock": false,
+      "price": 249
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "name": "Samsung Galaxy A80",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-a80-sm-a805fzkdphn-frontblack-thumb-170876202?$PF_PRD_PNG$",
+      "inStock": true,
+      "price": 549
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "name": "Samsung Galaxy A71",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-a71-sm-a715fzbuphn-front-thumb-204068508?$PF_PRD_PNG$",
+      "inStock": false,
+      "price": 469
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "name": "Samsung Galaxy A51",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-a51-sm-a515fzbveub-back-thumb-204026023?$PF_PRD_PNG$",
+      "inStock": true,
+      "price": 369
+    },
+    {
+      "id": 7,
+      "categoryId": 2,
+      "name": "Samsung Galaxy A20e",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-a20e-sm-a202fzkdphn-backblack-thumb-170387916?$PF_PRD_PNG$",
+      "inStock": false,
+      "price": 179
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "name": "Samsung Galaxy S10 Plus",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-s10plus-g975-sm-g975fzwdphn-frontprismwhite-thumb-148947960?$PF_PRD_PNG$",
+      "inStock": false,
+      "price": 999
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "name": "Samsung Galaxy S10",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-s10-g973-sm-g973fzwdphn-frontprismwhite-thumb-148947560?$PF_PRD_PNG$",
+      "inStock": true,
+      "price": 899
+    },
+    {
+      "id": 10,
+      "categoryId": 2,
+      "name": "Samsung Galaxy S10 Lite",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-s10-lite-sm-g770fzbdphn-rprismblue-thumb-204026451?$PF_PRD_PNG$",
+      "inStock": false,
+      "price": 649
+    },
+    {
+      "id": 11,
+      "categoryId": 2,
+      "name": "Samsung Galaxy S10e",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-s10e-g970-sm-g970fzwdphn-backprismwhite-thumb-148935855?$PF_PRD_PNG$",
+      "inStock": false,
+      "price": 749
+    },
+    {
+      "id": 12,
+      "categoryId": 2,
+      "name": "Samsung Galaxy S9+",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-s9plus-g965-sm-g965fzpdphn-frontpurplepurple-thumb-93474354?$PF_PRD_PNG$",
+      "inStock": true,
+      "price": 849
+    },
+    {
+      "id": 13,
+      "categoryId": 2,
+      "name": "Samsung Galaxy S9",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-s9-g960-sm-g960fzkdphn-backblack-thumb-93471981?$PF_PRD_PNG$",
+      "inStock": true,
+      "price": 579
+    },
+    {
+      "id": 14,
+      "categoryId": 2,
+      "name": "Samsung Galaxy S8",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-s8-g950-sm-g950fzkaphn-thumb-82808647?$PF_PRD_PNG$",
+      "inStock": false,
+      "price": 539
+    },
+    {
+      "id": 15,
+      "categoryId": 3,
+      "name": "Samsung Galaxy Note10+",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-note10plus-n975-sm-n975fzsdphn-frontauraglow-thumb-182416775?$PF_PRD_PNG$",
+      "inStock": false,
+      "price": 1099
+    },
+    {
+      "id": 16,
+      "categoryId": 3,
+      "name": "Samsung Galaxy Note10",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-note10-n970-sm-n970fzsdphn-thumb-182416334?$PF_PRD_PNG$",
+      "inStock": false,
+      "price": 823
+    },
+    {
+      "id": 17,
+      "categoryId": 3,
+      "name": "Samsung Galaxy Note10 Lite",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-note10-lite-sm-n770fzsdphn-thumb-Front-204068965?$PF_PRD_PNG$",
+      "inStock": true,
+      "price": 599
+    },
+    {
+      "id": 18,
+      "categoryId": 3,
+      "name": "Samsung Galaxy Note9",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/be-galaxy-note9-sm-n960-sm-n960fzkdlux-devicepenfrontblack-thumb-111931452?$PF_PRD_PNG$",
+      "inStock": true,
+      "price": 969
+    },
+    {
+      "id": 19,
+      "categoryId": 4,
+      "name": "Samsung Galaxy M20",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl-galaxy-m20-sm-m205fdawphn-backblack-thumb-162574545?$PF_PRD_PNG$",
+      "inStock": false,
+      "price": 199
+    },
+    {
+      "id": 20,
+      "categoryId": 4,
+      "name": "Samsung Galaxy Fold",
+      "imageUrl": "https://images.samsung.com/is/image/samsung/nl/galaxy-fold/gallery/nl-galaxy-fold-sm-f900-sm-f900fzkdphn-frontblack-thumb-158352749?$PF_PRD_PNG$",
+      "inStock": false,
+      "price": 2020
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Galaxy A"
+    },
+    {
+      "id": 2,
+      "name": "Galaxy S"
+    },
+    {
+      "id": 3,
+      "name": "Galaxy Note"
+    },
+    {
+      "id": 4,
+      "name": "Other Galaxy Phones"
+    }
+  ]
+}
