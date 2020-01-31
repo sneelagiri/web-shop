@@ -1,6 +1,7 @@
-function productsReducer(state = "yes", action) {
+const initialState = null;
+export default function productsReducer(state = initialState, action) {
   switch (action.type) {
-    case "SET_HAVING_FUN": {
+    case "products/FETCHED": {
       return action.payload;
     }
     default: {

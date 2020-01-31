@@ -1,18 +1,15 @@
 import React from "react";
 import { connect } from "react-redux";
-import { fetchProducts } from "../store/reducers/products/actions";
 import { Card, Button } from "react-bootstrap";
 
-class ProductList extends React.Component {
+import "./components.css";
+
+class Cart extends React.Component {
   componentDidMount() {
     console.log("Stage 1: componentDidMount");
     // Do the data fetch...
-    this.props.dispatch(fetchProducts);
+    this.props.dispatch(fetchCart);
   }
-
-  // handleAdd = id => {
-  //   this.props.fetch
-  // };
 
   render() {
     const loading = !this.props.products.productsReducer;
@@ -47,4 +44,4 @@ function mapStateToProps(reduxState) {
   };
 }
 // ...which is what we export as the default (only) export
-export default connect(mapStateToProps)(ProductList);
+export default connect(mapStateToProps)(Cart);
